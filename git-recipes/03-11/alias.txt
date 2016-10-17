@@ -1,0 +1,3 @@
+[alias]
+    create-file = "!createFile() { for name in \"$@\"; do echo $name>$name.txt; done; }; createFile"
+    simple-commit = "!simpleCommit() { for name in \"$@\"; do git create-file \"$name\"; git snapshot $name; done; }; simpleCommit"

@@ -1,0 +1,13 @@
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "precise32"
+  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+
+  #Synchronized folders on windows:
+  #config.vm.synced_folder "c:\\your\\path\\to\\git-recipes", "/pub/git"
+
+  #Synchronized folders on Unix-like systems:
+  #config.vm.synced_folder "/your/path/to/git-recipes", "/pub/git"
+
+end
