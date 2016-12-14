@@ -1,0 +1,4 @@
+*           eol=lf
+windows/*   eol=crlf
+mixed/*     -text
+

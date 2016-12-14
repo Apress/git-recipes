@@ -1,0 +1,5 @@
+[parameters]
+    database_host = your.host.example.net
+    database_name = dbname
+    database_user = admin
+    database_password = sEcrEtPaSSword
